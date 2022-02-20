@@ -21,7 +21,7 @@ export default Index
 
 export async function getStaticProps() {
   return {
-    props: { dateTime: new Date().toLocaleString('ja-JP') },
+    props: { dateTime: new Date().toString() },
     revalidate: 30
   }
 }

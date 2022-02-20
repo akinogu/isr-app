@@ -35,7 +35,7 @@ export async function getStaticProps({ params }: Params) {
   return {
     props: {
       cities,
-      dateTime: new Date().toLocaleString('ja-JP')
+      dateTime: new Date().toString()
     }
   }
 }
