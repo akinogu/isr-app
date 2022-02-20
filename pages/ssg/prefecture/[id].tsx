@@ -36,8 +36,7 @@ export async function getStaticProps({ params }: Params) {
     props: {
       cities,
       dateTime: new Date().toString()
-    },
-    revalidate: 30, // In seconds
+    }
   }
 }
 
