@@ -17,7 +17,7 @@ const Prefecture: React.VFC<Props> = (props) => {
     <div>
       <h1>isr cities</h1>
       <div>Time: {props.dateTime}</div>
-      {cities.map(c => <div key={c.id}>{c.name}</div>)}
+      {cities.map(c => <div key={c.id}>- {c.name}</div>)}
     </div>
   )
 }
